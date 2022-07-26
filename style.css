@@ -240,7 +240,7 @@ color: rgb(234, 202, 203);
 font-size: large;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:768px) {
 
 #fl {
 flex-direction: column;
@@ -302,7 +302,7 @@ right: 20vw;
 
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1025px) {
+@media screen and (max-width: 1280px) and (min-width: 1000px) {
 
 #logo {
 margin-left: 10%;
@@ -330,3 +330,36 @@ right: 55vw;
 }
 
 }
+
+@media screen and (max-width: 1000px) and (min-width: 769px) {
+
+    #logo {
+    width: 40%;
+    height: 40%;
+    margin-left: 4%;
+    margin-bottom: 75px;
+    }
+    
+    #p1 {
+    margin-left: 4%;
+    }
+    
+    #in {
+    margin-left: 4%;
+    }
+    
+    #span1 {
+    margin-left: 4%;
+    font-size: 85px;
+    }
+    
+    .span2 {
+    margin-left: 4%;
+    font-size: 85px;
+    }
+    
+    button {
+    right: 55vw;
+    }
+    
+    }
