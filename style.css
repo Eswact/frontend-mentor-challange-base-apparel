@@ -288,18 +288,31 @@ margin-bottom: 50px;
 
 #span1 {
 margin-left: 8%;
-font-size: 75px;
+font-size: 46px;
 }
 
 .span2 {
 margin-left: 8%;
-font-size: 75px;
+font-size: 46px;
 }
 
 button {
-right: 20vw;
+right: 18vw;
 }
 
+#p1{
+    margin-top: 28px;
+    margin-right: 12px;
+}
+
+}
+
+@media screen and (max-width:568px) {
+    
+    button {
+    right: 8vw;
+    }
+    
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1000px) {
@@ -362,4 +375,4 @@ right: 55vw;
     right: 55vw;
     }
     
-    }
+}
